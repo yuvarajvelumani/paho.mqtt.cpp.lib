@@ -4,6 +4,7 @@
 - based on the Eclipse Paho MQTT Cpp source code version 1.2.0
 - Modified to build ONLY the shared library using CMake tools
 - Build C libraries are copied to 'pahomqtt.c.dir' folder
+- Build Cpp libraries are copied to 'pahomqtt.cpp.dir' folder
 - OpenSSL is NOT used
 
 ## Folder Structure
@@ -11,6 +12,10 @@
   - include
   - posix64_libs
   - wind64_libs
+- pahomqtt.cpp.dir
+  - include
+  - posix64_libs
+  - wind64_libs  
 
 ## Windows build
 - Compiled using Visual Studio 2019
@@ -20,3 +25,4 @@
 
 ## TODO
 - Raspberry Pi build
+- Include Cpp Include files
